@@ -1,6 +1,8 @@
 # NEONATE
 All the experiments were conducted on a laptop computer configured with a 2.30 GHz Intel Core i7 CPU, 16GB main memory, and a 64-bit operating system in Microsoft Windows platform. Visual C++ 6.0 has been used in developing the program.
 
-DNA datasets: S1-S9  can be downloaded from http://www.ncbi.nlm.nih.gov
+## Abstract
+Pattern matching is used to calculate support or occurrence numbers of a pattern in knowledge mining and has derived kinds of constraints during the retrieval process. Among the variety of possible constraint-matching conditions, plenty of research has illustrated the significant non-overlapping condition, which means that any two occurrences cannot use the identical character of the sequence in the same position of the pattern. Although a corresponding completeness proof has been given in state-of-the-art works, there is still room to improve the matching process. Inspired by the literature on strict matching under the non-overlapping condition, this study proposes a Nettree-based approach to matching given patterns called NEONATE. It adopts a bi-directional search strategy and pruning operation to realize the non-overlapping pattern matching under the gap and length constraints. NEONATE first locates the horizontal layer with the fewest available nodes in the Nettree. Then, it iteratively seeks the rightmost parent and rightmost child node until an occurrence is obtained in which the nodes in the Nettree path can strictly satisfy the pattern constraint. This study has not only demonstrated the completeness of NEONATE but also analyzed the complexity of the algorithm. The correctness and efficiency of NEONATE have been proved via extensive experiments.
 
-Protein datasets SDB1-SDB6 can be downloaded from http://gi.cebite.uni-bielefeld.de and https://www.uniprot.org/uniprotkb, respectively.
+Experiment datasets: dataset.zip
+
